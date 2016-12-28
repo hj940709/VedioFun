@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="3dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingStart="10dip"
+    android:paddingEnd="10dip"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:layout_width="130dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView 
+            android:id="@+id/wname1"
+            style="@style/expressstyle"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:gravity="center_vertical"
+            />
+        <TextView 
+            android:id="@+id/wname2"
+            style="@style/expressstyle"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/wepisode"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:gravity="start|center_vertical"
+		android:layout_marginStart="5dip"
+		android:layout_marginEnd="5dip"
+		android:layout_weight="1"
+        />
+	<ImageButton 
+	    android:id="@+id/widgetbtn"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:src="@drawable/widget_btn_selector"
+	    android:contentDescription="@string/app_name"
+	    android:scaleType="centerInside"
+	    android:layout_weight="1"
+	    android:background="#00000000"/>
+</LinearLayout>

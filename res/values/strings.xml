@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VedioFun</string>
+    <string name="loading">Loading……</string>
+    <string name="main_label">Today\'s Checklist</string>
+    <string name="action_add">Add</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_exit">Exit</string>
+    <string name="name1">Name1: </string>
+    <string name="name2">Name2: </string>
+    <string name="season">Season: </string>
+    <string name="episode">Episode:</string>
+    <string name="nextdate">Nextdate:</string>
+    <string name="status">Status:</string>
+    <string name="detail">Detail:</string>
+    <string name="refresh">Refresh:</string>
+    <string name="end">End:</string>
+    <string name="freq">Freq:</string>
+    <string name="checkedbtn">Checked</string>
+    <string name="pausedbtn">Paused</string>
+    <string name="endedbtn">Ended</string>
+    <string name="modifybtn">Modify</string>
+    <string name="title_activity_history">History</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_modify">Modify</string>
+	<string name="auto_switch_on">Auto</string>
+	<string name="auto_switch_off">Manual</string>
+	<string name="end_switch_off">Updating</string>
+	<string name="end_switch_on">Ended</string>
+
+</resources>
